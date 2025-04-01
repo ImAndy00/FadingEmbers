@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c21e8898a058de048a32c1b3e06ee602
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spawnHouse: {fileID: 4506687209873127780, guid: 4364652a4b98a5e4da3e482a2dfc049c, type: 3}
+  - spawnOutsideHouse: {fileID: 7677448607910208896, guid: 03fe3f58c29b6eb478720517bdd34a31, type: 3}
+  - player: {fileID: 5560886884343105853, guid: d79d6b5d286102f41904118e5e920432, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
