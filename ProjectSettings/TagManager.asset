@@ -11,6 +11,66 @@ TagManager:
   - TownExit
   - ExitEntrance
   - DungeonExit
+  - Room1toRoom2
+  - Room2toRoom3
+  - Room2PuzzleLaser
+  - Room2toRoom1
+  - Room2toRoom5
+  - MapLaser
+  - Room3toRoom4
+  - Room3PuzzleLaser
+  - Room3toRoom8
+  - Room3toRoom2
+  - Room4toRoom3
+  - Room5toRoom8
+  - Room5toRoom2
+  - Room5toRoom6
+  - Room5PuzzleLaser
+  - Room8toRoom3
+  - Room8ToRoom5
+  - Room8toRoom9
+  - Room8PuzzleLaser
+  - Room6toRoom5
+  - Room6toRoom7
+  - Room6toRoom9
+  - Room6PuzzleLaser
+  - Room7toRoom6
+  - Room9toRoom8
+  - Room9toRoom6
+  - Room9toRoom10
+  - Room10toRoom11
+  - Room11ToRoom10
+  - Room10toRoom9
+  - Room11FlameLaser
+  - Room9ChestLaser
+  - Room10BossLaser
+  - Room9PuzzleLaser
+  - ResetSpace
+  - RedSpace
+  - BlueSpace
+  - BigCubeSpace
+  - MonsterSpace
+  - BlueCube
+  - RedCube
+  - Room1
+  - Room2
+  - Room3
+  - Room4
+  - Room5
+  - Room6
+  - Room7
+  - Room8
+  - Room9
+  - Room10
+  - Room11
+  - IceBall
+  - IceBeam
+  - MapChest
+  - IceEnemy
+  - IceBeamChest
+  - WandChest
+  - Fire
+  - IceBoss
   layers:
   - Default
   - TransparentFX
@@ -18,7 +78,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Enemy
   - 
   - 
   - 

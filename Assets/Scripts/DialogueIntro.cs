@@ -8,13 +8,10 @@ public class DialogueIntro : MonoBehaviour
 {
     public Image backgroundImage; 
     
-    // CanvasGroup on the dialogue panel that holds your dialogue text
     public CanvasGroup dialoguePanel; 
     
-    // The dialogue text element (using TextMeshPro)
     public TextMeshProUGUI dialogueText; 
-    
-    // UI elements for name input and gender selection
+
     public TMP_InputField nameInputField;         // InputField for name
     public Button maleButton;                 // Button for male gender
     public Button femaleButton;               // Button for female gender
@@ -25,7 +22,6 @@ public class DialogueIntro : MonoBehaviour
     public float waitAfterDialogue = 1f;      // Wait time after dialogue before fading to white
     public float typingSpeed = 0.04f;
 
-    // Your dialogue lines
     private int currentLine = 0;
 
     // Player info

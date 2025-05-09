@@ -91,5 +91,101 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a56b199392257a849ad27b2ed95598d4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7645731516332870070}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a56b199392257a849ad27b2ed95598d4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3863232652268047944}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a56b199392257a849ad27b2ed95598d4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5965302834088959011}
   m_SourcePrefab: {fileID: 100100000, guid: a56b199392257a849ad27b2ed95598d4, type: 3}
+--- !u!1 &543073149032784867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a56b199392257a849ad27b2ed95598d4, type: 3}
+  m_PrefabInstance: {fileID: 812912889083715250}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7645731516332870070
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543073149032784867}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.0416555, y: 3.9787412, z: 3.9660022}
+  m_Center: {x: 0.0713315, y: 2.1307771, z: 0.07726443}
+--- !u!136 &3863232652268047944
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543073149032784867}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.97388697
+  m_Height: 3.6013951
+  m_Direction: 1
+  m_Center: {x: 0.012876034, y: 1.7478063, z: 0}
+--- !u!114 &-5965302834088959011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543073149032784867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e697e9efca0a4ad409f994e29a6dbe02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noWandLines:
+  - What are you wating for?!
+  - Hurry and open the chest, we don't have time to spare!
+  hasWandLines:
+  - Ahh... It suits you well.
+  - It has been passed down in this town for years. It belongs to you now.
+  - Erm.. How do you use it?
+  - ...
+  - ...
+  - No clue!
+  - But i'm sure you'll be fine, you were destined to wield it.
+  - Now to the important part...
+  - I was lurking around the forest and came across an odd structure with a bright
+    light eminating from it.
+  - I believe a remnant of the ancient flame resides in there... I need you to go
+    explore it.
+  - If true you must retrieve it... If we find enough we can finally restore the
+    light to this world.
+  - Just keep heading north from here and eventually you'll reach it. Do be careful
+    though, we have no idea what traps or monster are awaiting you.
+  - Now make haste! You are our only hope...
+  postDungeonLines:
+  - Amazing! You did it!
+  - Take a look at the candle! Its lit!
+  - If we can just find 4 more...
+  - I'll keep an eye out for any more ominous lights.

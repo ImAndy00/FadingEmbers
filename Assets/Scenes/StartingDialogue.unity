@@ -158,7 +158,7 @@ MonoBehaviour:
   girlModel: {fileID: 1058290765}
   fadeDuration: 2
   waitAfterDialogue: 1
-  typingSpeed: 0.04
+  typingSpeed: 0.02
 --- !u!4 &149171153
 Transform:
   m_ObjectHideFlags: 0
